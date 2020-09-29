@@ -1,7 +1,7 @@
 # SENSE
 - Morag Fotheringham
 
-- ice- ocean- atmosphere interactions in the Arctic
+- Ice- ocean- atmosphere interactions in the Arctic
 
 - Links to website & social media
 
