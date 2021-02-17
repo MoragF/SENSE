@@ -1,0 +1,17 @@
+[1] Svalbard_Austfonna _land 
+Until 2013 shows (what I am assuming is) an expected from the seasonal cycle, with dh/dt remaining positive
+After 2013 this is interrupted dropping to 0 if not negative dh/dt:  fits with a lot of activity on the Austfonna ice sheet/cap, in fact it reminded me about the Mcmillan 2014 paper that I think you contributed too?
+From 2015 shows a recovery back to the previous cycle (greater positive dh/dt and larger oscillations), with it diminished in 2017 and after 2019.
+
+From a quick refresh of the Arctic reports it at first glance fits that timeline too, except perhaps the recovery from the 2015 but I am thinking this has more to do with ice dynamics. I'm currently having a look through more region specific 
+reports/papers than the Arctic Report. Anyway as you can see excited to have my first plot 🙂. 
+
+This is over land-terminating sector so I am not anticipating any dynamic impact.
+
+It is a relative elevation plot so the absolute values are not so meaningful, a reference DEM is subtracted from the altimetry elevation and there may be a bias between the two, which is probably why the graph does not start at 0. I think the DEM is from ~2013 which is when you seen the graph closing on 0
+
+The seasonnal signal is pretty clear, although interpreting the seasonality in these time-series will be important - radar altimetry is impacted by height change but also density of the material deposited and by surface melt. Some years the seasonality is quite strong, others not so much. Would be intersting to see hoe this relates to accumulation/melting.
+
+There was a particularly warm summer in 2013 which led to intense melting, this is also pretty clear on the time-series where the surface lowers a lot. 
+
+There is also an apparent upward trend, so slight thickenning over the entire time-period.

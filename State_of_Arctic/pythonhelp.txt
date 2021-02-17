@@ -1,0 +1,48 @@
+Linux system 
+
+#create file for python
+touch fname.py
+
+#open jupyter
+jupyter notebook
+
+#run file
+python fname.py
+
+
+NC file
+
+#create xarray (import xarray as xr)
+dname= xr.open_dataset('')
+
+Cartopy
+
+#simplest
+ax = plt.axes(projection=ccrs.PlateCarree())
+ax.set_global()
+ax.coastlines()
+ax.contourf(lons,lats,data,vmin=225,vmax=280) #no need to specify transform because simplest projection
+
+#ploting with xr (mulitple)
+projections = [ccrs.LambertConformal(cutoff=60),
+               ccrs.NorthPolarStereo(),
+              ]
+
+data_test = ds.'var'.sel(time='2010-01-01', method='nearest')
+
+for proj in projections:
+    plt.figure(figsize=(14.5,9))
+    ax = plt.axes(projection=proj)
+#     ax.stock_img()
+    ax.coastlines()
+    
+    
+#     fig = plt.figure(figsize=(18,12))
+#     ax = plt.axes(projection=ccrs.Orthographic())
+    ax.coastlines()
+    ax.gridlines()
+    t2m_test.plot(ax=ax, transform=ccrs.PlateCarree(),
+             vmin=225, vmax=280, cbar_kwargs={'shrink': 0.4})
+
+
+    ax.set_title(f'{type(proj)}')

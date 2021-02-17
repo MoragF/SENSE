@@ -1,0 +1,31 @@
+Sea ice concentration from NSIDC NASA Team algorithn
+Sea ice concentration from NSIDC Boostrap algorithm 
+TOPAZ ocean reanalysis (for the ocean temperature at depths)
+ERA-I reanalysis for the surface 2m temperature and for the SST (I think this gave the problematic SST) 
+OSTIA SST 
+PIOMAS sea ice thickness (model only result)
+
+Sea ice concentration
+NSIDC
+from ice concentration monthly folder -https://polarwatch.noaa.gov/erddap/files/nsidcCDRiceSQnhmday/
+​I don't have access to the NSDIC that the glaciersinterpolatedConcentrations code is run off
+
+Surface temperature
+ERA-i
+https://cds.climate.copernicus.eu/cdsapp#!/dataset/derived-near-surface-meteorological-variables?tab=form
+
+
+These 4 are from the links were in the readme files
+Sea Surface Temperature
+ERA SST (possible problematic SST from your results)
+ERSST/readme file - https://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v5
+
+OSTIA
+OSTIA doi link in readme https://www.ncei.noaa.gov/thredds-ocean/dodsC/ghrsst/L4/GLOB/UKMO/OSTIA/2016/073/20160313120000-UKMO-L4_GHRSST-SSTfnd-OSTIA-GLOB-v02.0-fv02.0.nc.html
+
+Sea Temperature at depth
+TOPAZ - https://resources.marine.copernicus.eu/?option=com_csw&view=details&product_id=ARCTIC_REANALYSIS_PHYS_002_003
+
+​Sea Ice Thickness
+PIOMAS (Model only)
+Read file - http://psc.apl.washington.edu/zhang/IDAO/data_piomas.html

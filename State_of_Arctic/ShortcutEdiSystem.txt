@@ -1,0 +1,15 @@
+Short cuts for linux
+Where code .m is stored
+/exports/csce/datastore/geos/groups/geos_EO/development/s1423313/Cryosphere/dhdt/
+
+Database for svalbard
+/geos/d14/CS2/Svalbard_bD_CCN2/L2S/
+
+Mask for svalbard:
+/exports/csce/datastore/geos/groups/geos_EO/L0data/GLIMS/RGI_6.0/07_rgi60_Svalbard_Austfonna_corr_basin3na_100m.tif
+
+minfiles:
+/exports/csce/datastore/geos/groups/geos_EO/MINFILES/
+
+output of code:
+/geos/d14/CS2/dhdt/Timeseries/{yourMinFile}/
